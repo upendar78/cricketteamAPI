@@ -1,16 +1,5 @@
 # Cricket Team
 
-Given two files `app.js` and a database file `cricketTeam.db` consisting a table `cricket_team`.
-
-Write APIs to perform operations on the table `cricket_team` containing the following columns,
-
-| Columns       | Type    |
-| ------------- | ------- |
-| player_id     | INTEGER |
-| player_name   | TEXT    |
-| jersey_number | INTEGER |
-| role          | TEXT    |
-
 ### API 1
 
 #### Path: `/players/`
@@ -126,10 +115,3 @@ Deletes a player from the team (database) based on the player ID
 Player Removed
 ```
 
-<br/>
-
-Use `npm install` to install the packages.
-
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
